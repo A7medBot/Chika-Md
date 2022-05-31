@@ -362,9 +362,6 @@ return`  _Selamat ${salam} kak ${pushname}_
   *≻* ${prefix}delete
   *≻* ${prefix}infochat
   *≻* ${prefix}quoted
-  *≻* ${prefix}listpc
-  *≻* ${prefix}listgc
-  *≻* ${prefix}listonline
   
   *DATABASE MENU*
   *≻* ${prefix}setcmd
@@ -872,9 +869,6 @@ exports.mainmenu = (prefix) => {
   *≻* ${prefix}delete
   *≻* ${prefix}infochat
   *≻* ${prefix}quoted
-  *≻* ${prefix}listpc
-  *≻* ${prefix}listgc
-  *≻* ${prefix}listonline
   `
 }
 
@@ -953,7 +947,7 @@ exports.ownermenu = (prefix) => {
 exports.thanksto = () => {
 	return`
   *THANKS TO*
-  *≻* DikaArdnt
+  *≻* AĦMED ALHUJAJ
   *≻* ZeeoneOfc
   *≻* FatihArridho
   *≻* Yoga
