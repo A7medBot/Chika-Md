@@ -68,11 +68,11 @@ module.exports = chika = async (chika, m, chatUpdate, store) => {
 	    const isMedia = /image|video|sticker|audio/.test(mime)
 	    const from = mek.key.remoteJid
 	
-        // Time & Date
-        const time = moment(Date.now()).tz('Middle East/Iraq').locale('id').format('HH:mm:ss z')
-        const wita = moment(Date.now()).tz('Middle East/Iraq').locale('id').format('HH:mm:ss z')
-        const wit = moment(Date.now()).tz('Middle East/Iraq').locale('id').format('HH:mm:ss z')
-        const salam = moment(Date.now()).tz('Middle East/Iraq').locale('id').format('a')
+       // Time & Date
+        const time = moment(Date.now()).tz('Asia/Baghdad').locale('id').format('HH:mm:ss z')
+        const wita = moment(Date.now()).tz('Asia/Baghdad').locale('id').format('HH:mm:ss z')
+        const wit = moment(Date.now()).tz('Asia/Baghdad').locale('id').format('HH:mm:ss z')
+        const salam = moment(Date.now()).tz('Asia/Baghdad').locale('id').format('a')
         
         // Group
         const groupMetadata = m.isGroup ? await chika.groupMetadata(m.chat).catch(e => {}) : ''
@@ -166,7 +166,7 @@ module.exports = chika = async (chika, m, chatUpdate, store) => {
             console.log('Reseted Limit')
         }, {
             scheduled: true,
-            timezone: "Middle East/Iraq"
+            timezone: "Asia/Baghdad"
         })
         
 	// auto set bio
