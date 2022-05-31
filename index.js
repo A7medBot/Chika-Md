@@ -48,7 +48,7 @@ lang = ind // Language
 typemenu = 'image'
 
 // Date
-moment.tz.setDefault("Asia/Jakarta").locale("id");
+moment.tz.setDefault("Middle East/Iraq").locale("id");
 
 module.exports = chika = async (chika, m, chatUpdate, store) => {
     try {
@@ -69,10 +69,10 @@ module.exports = chika = async (chika, m, chatUpdate, store) => {
 	    const from = mek.key.remoteJid
 	
         // Time & Date
-        const time = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('HH:mm:ss z')
-        const wita = moment(Date.now()).tz('Asia/Makassar').locale('id').format('HH:mm:ss z')
-        const wit = moment(Date.now()).tz('Asia/Jayapura').locale('id').format('HH:mm:ss z')
-        const salam = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('a')
+        const time = moment(Date.now()).tz('Middle East/Iraq').locale('id').format('HH:mm:ss z')
+        const wita = moment(Date.now()).tz('Middle East/Iraq').locale('id').format('HH:mm:ss z')
+        const wit = moment(Date.now()).tz('Middle East/Iraq').locale('id').format('HH:mm:ss z')
+        const salam = moment(Date.now()).tz('Middle East/Iraq').locale('id').format('a')
         
         // Group
         const groupMetadata = m.isGroup ? await chika.groupMetadata(m.chat).catch(e => {}) : ''
@@ -166,7 +166,7 @@ module.exports = chika = async (chika, m, chatUpdate, store) => {
             console.log('Reseted Limit')
         }, {
             scheduled: true,
-            timezone: "Asia/Jakarta"
+            timezone: "Middle East/Iraq"
         })
         
 	// auto set bio
@@ -1360,7 +1360,7 @@ break
                  let teks = `⬣ *LIST GROUP CHAT*\n\nTotal Group : ${anu.length} Group\n\n`
                  for (let i of anu) {
                      let metadata = await chika.groupMetadata(i)
-                     teks += `⬡ *Nama :* ${metadata.subject}\n⬡ *Owner :* @${metadata.owner.split('@')[0]}\n⬡ *ID :* ${metadata.id}\n⬡ *Dibuat :* ${moment(metadata.creation * 1000).tz('Asia/Jakarta').format('DD/MM/YYYY HH:mm:ss')}\n⬡ *Member :* ${metadata.participants.length}\n\n────────────────────────\n\n`
+                     teks += `⬡ *Nama :* ${metadata.subject}\n⬡ *Owner :* @${metadata.owner.split('@')[0]}\n⬡ *ID :* ${metadata.id}\n⬡ *Dibuat :* ${moment(metadata.creation * 1000).tz('Middle East/Iraq').format('DD/MM/YYYY HH:mm:ss')}\n⬡ *Member :* ${metadata.participants.length}\n\n────────────────────────\n\n`
                  }
                  chika.sendTextWithMentions(m.chat, teks, m)
              }
