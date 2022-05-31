@@ -28,7 +28,7 @@ global.ownernomer = '9647717555198' //ubah jadi nomor mu, note tanda ' gausah di
 
 //—————「 Set Nama Own & Bot 」—————//
 global.ownername = 'AĦMED ALHUJAJ ' //ubah jadi nama mu, note tanda ' gausah di hapus!
-global.botname = 'Toxic Potato & Chika' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.botname = 'Toxic Potato' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
 global.footer = 'AĦмED ALHUJAJ ' //ubah jadi nama mu, note tanda ' gausah di hapus!
 
 //—————「 Set Kebutuhan Button & Kontak 」—————//
