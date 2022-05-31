@@ -28,21 +28,21 @@ global.ownernomer = '9647717555198' //ubah jadi nomor mu, note tanda ' gausah di
 
 //—————「 Set Nama Own & Bot 」—————//
 global.ownername = 'AĦMED ALHUJAJ ' //ubah jadi nama mu, note tanda ' gausah di hapus!
-global.botname = 'Toxic Potato' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.botname = 'Toxic Potato & Chika' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
 global.footer = 'AĦмED ALHUJAJ ' //ubah jadi nama mu, note tanda ' gausah di hapus!
 
 //—————「 Set Kebutuhan Button & Kontak 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
-global.youtube = 'https://youtube.com/channel/UCtM-pDaaGVRe4BJ7w4qE4Bw'
-global.ig = 'https://instagram.com/riychdwayne'
-global.mygc = 'https://chat.whatsapp.com/CRY23lVKmXB7sCMhHmcwVw'
-global.myweb = 'https://s.id/chikabot'
-global.email = 'riychdwaynee@gmail.com'
-global.region = 'indonesia'
+global.youtube = 'https://www.youtube.com/channel/UCDXF0BtPkUyNzGzwul0KhkQ'
+global.ig = 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y='
+global.mygc = 'not yet'
+global.myweb = 'https://discord.gg/pbnPKqVsxv'
+global.email = 'ahmedsafashaban624@gmail.com'
+global.region = 'Iraq'
 
 //—————「 Set Wm 」—————//
-global.packname = '© Chika-Md' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.author = 'Riy' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.packname = 'Potato' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.author = 'AĦMED ALHUJAJ' //ubah jadi nama mu, note tanda ' gausah di hapus!
 
 //—————「 Set Nama Session 」—————//
 //gausah di apa² in!
@@ -52,7 +52,7 @@ global.sessionName = 'session'
 //terserah mau ubah atau nggak, note : tanda ' gausah di hapus!
 global.limitawal = {
 premium: "Infinity",
-free: 15,
+free: "Infinity",
 }
 
 //—————「 Set Image 」—————//
@@ -83,15 +83,15 @@ global.sp = '⭔'
 //terserah mau ubah apa nggak, note : tanda ' gausah di hapus!
 global.mess = {
 success: '_Done._',
-admin: '_Fitur Khusus Admin Group!_',
-botAdmin: '_Bot Harus Menjadi Admin Terlebih Dahulu!_',
-owner: '_Fitur Khusus Owner Bot_',
-group: '_Fitur Digunakan Hanya Untuk Group!_',
-private: '_Fitur Digunakan Hanya Untuk Private Chat!_',
-bot: '_Fitur Khusus Pengguna Nomor Bot_',
-wait: '_Sedang Di Proses..._',
-error: '_Fitur Sedang Error!_',
-endLimit: '_Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12_',
+admin: '_Special Features Admin Group!_',
+botAdmin: '_Bot Must Be Admin First!_',
+owner: '_Owner Bot Special Features_',
+group: '_Features Used Only For Groups!_',
+private: '_Features Used Only For Private Chat!_',
+bot: '_Bot Number User Special Features_',
+wait: '_Being processed..._',
+error: '_Error Moderate Features!_',
+endLimit: '_Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours_',
 }
 
 //—————「 Batas Akhir 」—————//
